@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(68, 61, 61);
+}
+#text {
+    background-color: aquamarine;
+    border: 5px solid;
+    border-color: aquamarine;
+    border-radius: 10px;
+    inline-size: 10%;
+    max-inline-size: 120px;
+    min-inline-size: 65px;
+    font-size: 125%;
+}
