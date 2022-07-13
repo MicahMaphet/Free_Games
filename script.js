@@ -1,2 +1,7 @@
-console.log("Hello World")
-//comment if you know what i mean
+console.log("Start Succesful");
+ function run() {
+    chartick();
+       setTimeout(run, 50);
+   }
+  
+   run();
