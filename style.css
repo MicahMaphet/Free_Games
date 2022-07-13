@@ -12,10 +12,17 @@ body {
     font-size: 125%;
 }
 #window{
-    inline-size: 300px;
-    block-size: 250px;
+    inline-size: 500px;
+    block-size: 350px;
     background-color: white;
     border: 5px solid rgb(36, 53, 75);
     position: relative;
     z-index: 26;
+  }
+  #character {
+    float: inline-start;
+    inline-size: 50px;
+    block-size: 50px;
+    clip-path: polygon(0% 0%, 50% 0%, 50% 50%, 0% 50%);
+    background: rgb(8, 50, 90);
   }
